@@ -1,0 +1,103 @@
+body {
+    background-color: rgba(4, 169, 88, 0.25);
+    font-family: Arial, sans-serif;
+}
+
+/*Header*/
+.navbar {
+    background-color: #67be7c;
+    max-height: 12vh;
+    
+}
+
+.img-fluid {
+    width: 100%;
+    max-width: 9vw;
+    height: auto;
+    max-height: 11vh;
+}
+
+/*Main*/
+.card {
+    background-color: rgb(244, 244, 249);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    justify-content: center;
+    border-radius: 2%;
+}
+
+h2, h3, .bold {
+    color: #0e3c19;
+    font-weight: bold;
+}
+
+p{
+    color: #347571;
+    font-family: 'Lobster';
+    font-size: 18px;
+    margin-top: -5vh;
+    font-weight: bold;
+}
+
+.btn{
+   background-color: #B8E28A;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+   border: 1px solid;
+   
+}
+
+.btn:hover{
+    background-color: #B8E28A;
+}
+
+.img-logo{
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+    max-height: 50%;
+}
+
+form input {
+    border-radius: 5px;
+}
+
+form .form-text {
+    font-size: 0.9rem;
+}
+
+.img-form{
+    position: absolute;
+    height: auto;
+    max-width: 100%;
+    max-height: 100vh;
+    margin-top: -10vh;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0); /* Posição inicial mais sutil */
+    }
+    50% {
+        transform: translateY(-5%); /* Movimentação mais suave */
+    }
+}
+
+
+/*Footer*/
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #67be7c;
+    height: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0e3c19;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
