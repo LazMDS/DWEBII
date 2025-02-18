@@ -1,0 +1,40 @@
+TELA DE CADASTRO
+1 - Posso me cadastrar no sistema com o nome, e-mail, senha e confirmação da senha.
+TELA DE LOGIN
+2 - Posso fazer login no sistema com e-mail e senha.
+TELA DE RECUPERAÇÃO DE SENHA
+3 - Posso recuperar a senha no login com e-mail para verificação.
+TELA DE PERFIL DO USUÁRIO
+4 - Posso mudar a foto do meu perfil.
+5 - Posso mudar meu nome e e-mail no perfil
+6 - Posso mudar minha senha no perfil
+TELA DE MENU (HOME)
+7 - Posso escolher o mês para exibir o menu.
+8 - Posso incluir despesas pelo o Menu com descrição da despesa, categoria da despesa e valor.
+9 - Posso atualizar o total de despesas e o Saldo restante.
+10 - Posso visualizar o grafico de Total de despesas e o Saldo restante no Menu.
+TELA DE GRÁFICOS
+11 - Posso escolher o mês para exibir os Graficos na página de Graficos.
+12 - Posso criar o gráfico por categorias que eu filtrar.
+13 - Posso criar o grafico pelos Valores de R$0 à R$50.00, de R$50.00 a R$100.00, de R$100.00 a R$500.00 
+e acima de R$500.00.
+TELA DE DESPESAS
+14 - Posso escolher o mês para acrescentar uma nova despesa na página de Despesas.
+15 - Posso acrescentar uma nova despesa com Descrição, Categoria, já criada como Tag, e Valor.
+16 - Posso editar uma despesa já cadastrada.
+17 - Posso excluir uma despesa já cadastrada.
+18 - Posso visualizar o valor total de despesas que foi cadastrada naquele mês.
+TELA DE CATEGORIA
+19 - Posso cadastrar uma nova categoria na página Categorias com Nome da Categoria, Descrição e Peso (1 a 5).
+20 - Posso editar uma categoria já cadastrada.
+21 - Posso excluir uma categoria já cadastrada.
+22 - Posso acrescentar novas categorias.
+23 - Posso visualizar as Categorias já cadastradas.
+TELA DE LIMITES
+24 - Posso escolher o mês para acrescentar um novo limite reservado na página de Limites.
+25 - Posso visualizar o limite reservado naquele mes.
+26 - Posso cadastrar um novo limite com Valor do Limite Reservado e Categoria previamente cadastrada, em forma de Tag.
+27 - Posso editar um limite já cadastrado.
+28 - Posso excluir um limite já cadastrado.
+29 - Posso acrescentar novos limites por categorias.
+30 - Posso visualizar o total do valor dos limites reservados que foram cadastrados naquele mês.

@@ -1,0 +1,60 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XPenses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/conectese.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+</head>
+<body>
+    <nav class="navbar navbar-light justify-content-end p-3">
+        <img src="./assents/logo.png" alt="XPenses Logo" class="img-fluid mb-3 mx-auto">
+        <!--<button class="btn btn-outline-light me-2">Sign in</button>
+        <button class="btn btn-outline-light">Sign Up</button>-->
+    </nav>
+
+    <div class="container-fluid d-flex flex-column align-items-center justify-content-center mt-4">
+        <div class="row w-100">
+            <!-- Left side: Image -->
+            <div class="col-lg-6 d-none d-lg-flex align-items-center justify-content-center">
+                <img src="./assents/Instagram post para provedor de internet gradiente azul (1).png" alt="XPenses Logo" class="img-form">
+            </div>
+
+            <!-- Right side: Form -->
+            <div class="col-lg-6 d-flex flex-column align-items-center">
+                <div class="card shadow p-4 w-75 ">
+                    <img src="./assents/logo.png" alt="XPenses Logo" class="img-logo mb-3 mx-auto">
+                    <p class="text-center text-muted">Controle financeiro feito para estudantes, por estudantes.</p>
+                    <h3 class="text-center">Recuperar Senha</h3>
+                    <form>
+                        <div class="mb-2 input-group-sm">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            <div class="form-text text-danger">Campo Obrigatório</div>
+                        </div>
+                        
+                        <button type="submit" class="btn w-100">ENVIAR LINK DE RECUPERAÇÃO</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <a href="./Cadastrese.php" class="text-muted">Lembrou a senha?</a> |
+                        <a href="./Conectese.php" class="text-muted bold">Fazer Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-3">
+        <div class="container">
+            <a href="#" class="text-center mx-2">Contato</a>
+            <a href="#" class="text-center mx-2">Sobre nós</a>
+            <a href="#" class="text-center mx-2">Ajuda</a>
+            <a href="#" class="text-center mx-2">Privacidade</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

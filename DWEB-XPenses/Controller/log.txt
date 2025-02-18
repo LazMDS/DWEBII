@@ -1,0 +1,24 @@
+[]{
+    "description": "Aluguel",
+    "amount": "400",
+    "category_id": "9",
+    "user_id": "5"
+}[][][][][]{
+    "description": "Aluguel",
+    "amount": "400",
+    "category_id": "9",
+    "date": "2025-01-01",
+    "user_id": "5"
+}[][]{
+    "description": "Aluguel",
+    "amount": "400",
+    "category_id": "9",
+    "date": "2025-01-01",
+    "user_id": "5"
+}[][]{
+    "description": "Aluguel",
+    "amount": "400",
+    "category_id": "9",
+    "date": "2025-01",
+    "user_id": "5"
+}[][]

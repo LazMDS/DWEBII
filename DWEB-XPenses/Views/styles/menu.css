@@ -1,0 +1,213 @@
+body {
+  background-color: #e8f1ea;
+  font-family: Arial, sans-serif;
+}
+
+/*Header*/
+.navbar {
+  background-color: #67be7c;
+  max-height: 100%;
+}
+
+#navProfileImage {
+  width: 40px; /* Define o tamanho fixo para a imagem */
+  height: 40px;
+  border-radius: 50%; /* Garante que a imagem fique arredondada */
+  object-fit: cover; /* Evita distorção */
+}
+
+.img-fluid {
+  width: 100%;
+  max-width: 9vw;
+  height: auto;
+  max-height: 11vh;
+}
+
+.log {
+  margin-right: 5vw;
+  width: auto;
+  height: auto;
+  max-width: 50%;
+  max-height: 50%;
+  min-width: 1vw;
+  min-width: 1vh;
+}
+.set {
+  color: #c0f1cc;
+}
+
+.dropdown-menu {
+  left: 50%; /* Inicia a 50% do botão */
+  transform: translateX(-50%); /* Move o dropdown para o centro do botão */
+  right: auto; /* Certifica-se de que o dropdown não ultrapasse a tela */
+  background-color: #bcbdbc;
+}
+
+span {
+  color: #c0f1cc;
+  font-weight: bold;
+}
+
+.edit {
+  border: 1px solid rgba(0, 0, 0, 0.429);
+  background-color: #638f6e4b;
+}
+
+.edit:hover {
+  border: 1px solid rgba(189, 192, 192, 0.429);
+  background-color: #0675244b;
+}
+/*Footer*/
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #67be7c;
+  height: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0e3c19;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*Main*/
+.sidebar {
+  background-color: #67be7c;
+  max-width: 12vw;
+}
+
+h2,
+h3,
+.dropdown-item {
+  color: #0e3c19;
+  font-weight: bold;
+}
+
+h5 {
+  color: #6d9777;
+  font-weight: bold;
+}
+
+.dash {
+  margin-left: 10%;
+}
+
+.analise {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100%; /* Garante que o container ocupe toda a altura da tela */
+}
+
+.row.flex-grow-1 {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.bloco {
+  background-color: #c0f1cc;
+  border-radius: 5%;
+  width: 90%; /* Permite que o bloco ocupe toda a largura disponível */
+  max-width: 100vw; /* Define uma largura máxima para não ficar muito largo */
+  padding: 1rem; /* Adicione um espaçamento interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona um sombreamento */
+  border: 1px solid rgba(0, 0, 0, 0.106);
+}
+
+/* Dashboard */
+.dashboard-card {
+  background-color: #c0f1cc;
+  border-radius: 10%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  margin: 0 8%;
+}
+
+/* Month Selection */
+#monthSelect {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #28a745;
+  background-color: #e8f1ea;
+  color: #0e3c19;
+  font-weight: bold;
+  width: 50%;
+  max-width: 15%;
+}
+
+#monthSelect:focus {
+  outline: none;
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.btn-success {
+  background-color: #b8e28a;
+  border-color: #28a745;
+  background-color: #b8e28a;
+}
+
+.btn-outline-success {
+  border-color: #032910d1;
+  color: #032910d1;
+  background-color: #b8e28a;
+}
+
+/* Contêiner pai do .control */
+.container-centralizado {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+/* Seu contêiner control */
+.control {
+  width: 60%; /* Largura do contêiner */
+  background-color: #e8f1ea;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chatbot {
+  position: fixed;
+  bottom: 1vh;
+  right: 1vw;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.chatbot-img {
+  width: 100%;
+  height: 100%;
+  max-width: 20vw;
+  max-height: 20vh;
+  margin-bottom: -18vh;
+}
+
+.chatbot-message {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 15%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 12vw;
+  color: #0c1a0f;
+  font-weight: bold;
+}
+
+#pieChart {
+  max-width: 100%;
+  height: auto;
+}
